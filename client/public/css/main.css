@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1f2327;
+  font-family: Roboto, sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.workflow-container {
+  margin: 10px;
+  height: 80%;
+  width: 80%;
+}
+.workflow-card {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #73777a;
+  border: 5px solid #3f72ee;
+  color: white;
+  font-size: 14px;
+}
+
+.workflow-card-workflows {
+  display: flex;
+  flex-direction: column;
+  background-color: #989da1;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 14px;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #3f72ee;
+  border: none;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #6c6bc5;
+}
